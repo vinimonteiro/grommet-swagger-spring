@@ -9,9 +9,9 @@ It's an alternative to Swagger-UI.
 It works with Springdocs generated url by default. For other tools, the OpenAPI doc path must be defined in application.properties file.
 
 Steps to use in your application (assuming it uses Springdocs already):
-1 - Download the fat jar available in master branch
-2 - Install the jar in your local maven repository. You can use for example maven-install-plugin in pom.xml
-3 - Configure to scan the controller using: @ComponentScan("com.grommet"). Once you do that, you need also to configure to scan your controllers. 
+- Download the fat jar available in master branch
+- Install the jar in your local maven repository. You can use for example maven-install-plugin in pom.xml
+- Configure to scan the controller using: @ComponentScan("com.grommet"). Once you do that, you need also to configure to scan your controllers. 
 (I'm still looking for some way to not need to do that. Feel free to propose some change)
 
 The documentation can be viewed by accessing application url / grommet-swagger. For example: http://localhost:8080/<context path>/grommet-swagger.
