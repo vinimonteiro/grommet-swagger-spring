@@ -10,8 +10,6 @@ It works with Springdocs generated url by default. For other tools, the OpenAPI 
 Steps to use in your application (assuming it uses Springdocs already):
 - Download the fat jar available in master branch (https://github.com/vinimonteiro/grommet-swagger-spring/blob/master/grommet-swagger-spring-0.0.1-packaged.jar)
 - Install the jar in your local maven repository. You can use for example maven-install-plugin in pom.xml
-- Configure to scan the controller using: @ComponentScan("com.grommet"). Once you do that, you need also to configure to scan your controllers. 
-(I'm still looking for some way to not need to do that. Feel free to propose some change)
 
 The documentation can be viewed by accessing application url / grommet-swagger. For example: http://localhost:8080/<context path>/grommet-swagger.
 /grommet-swagger redirects to controller, which then it passes url, theme, routePrefix etc to grommet-swagger.html
